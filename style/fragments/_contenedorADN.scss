@@ -1,0 +1,243 @@
+.grillaAcercaDeNosotros {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 60%;
+  justify-items: center;
+  align-items: center;
+  padding-top: 25vh;
+
+  .divImagenAcercaDeNosotros {
+    justify-items: center;
+    align-items: center;
+
+    .imagenPrincipalAcercaDeNosotros {
+      padding-top: 25vh;
+      width: 40vw;
+      height: auto;
+    }
+  }
+
+  .divParrafoAcercaDeNosotros {
+    width: 40vw;
+
+    .parrafoAcercaDeNosotros {
+      color: rgb(39, 10, 20);
+      font-size: 15px;
+      font-family: "Poppins", sans-serif;
+      word-spacing: 5px;
+      text-align: justify;
+    }
+  }
+}
+
+.bannerflex3 {
+  width: 98vw;
+  height: 50vh;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+  
+  .bannerInferior {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerInferiorContenedor {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+    
+    @each $fotosa in acn1, acn2, acn3, acn4 {
+      .bannerInferior#{$fotosa} {
+        background-image: url("../imagenes/#{$fotosa}.png");
+        flex: 1;
+        background-size: cover;
+        background-position-x: center;
+        text-decoration: none;
+        transition: cubic-bezier();
+        -webkit-transition: all 0.9s ease; /* Safari y Chrome */
+        -moz-transition: all 0.9s ease; /* Firefox */
+        -o-transition: all 0.9s ease; /* IE 9 */
+        -ms-transition: all 0.9s ease; /* Opera */
+        width: 100%;
+
+        .bannerInferiorColor {
+          background-color: rgba(88, 88, 88, 0.1);
+          height: 100%;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          h4 {
+            font-size: 1rem;
+            color: #fff;
+            font-family: "Anton", sans-serif;
+            font-weight: 500;
+            justify-content: center;
+          }
+        }
+
+        a {
+          text-decoration: none;
+        }
+      }
+
+      .bannerInferior#{$fotosa}:hover {
+        -webkit-transform: scale(1.15);
+        -moz-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+        -o-transform: scale(1.15);
+        transform: scale(1.15);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .grillaAcercaDeNosotros {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 0px;
+
+    .divImagenAcercaDeNosotros {
+      justify-items: center;
+      align-items: center;
+
+      .imagenPrincipalAcercaDeNosotros {
+        padding-top: 0px;
+        margin-left: 0px;
+        width: 90vw;
+        height: auto;
+      }
+    }
+    .divParrafoAcercaDeNosotros {
+      width: 90vw;
+
+      .parrafoAcercaDeNosotros {
+        padding-top: 5vh;
+        color: rgb(39, 10, 20);
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        word-spacing: 5px;
+        text-align: justify;
+      }
+    }
+  }
+}
+
+.bannerflex3 {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+  
+  .bannerInferior {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerInferiorContenedor {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+    
+    @each $fotosa in acn1, acn2, acn3, acn4 {
+      .bannerInferior#{$fotosa} {
+        background-image: url("../imagenes/#{$fotosa}.png");
+        flex: 1;
+        background-size: cover;
+        background-position-x: center;
+        text-decoration: none;
+        transition: cubic-bezier();
+        -webkit-transition: all 0.9s ease; /* Safari y Chrome */
+        -moz-transition: all 0.9s ease; /* Firefox */
+        -o-transition: all 0.9s ease; /* IE 9 */
+        -ms-transition: all 0.9s ease; /* Opera */
+        width: 100%;
+
+        .bannerInferiorColor {
+          background-color: rgba(88, 88, 88, 0.1);
+          height: 100%;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          h4 {
+            font-size: 1rem;
+            color: #fff;
+            font-family: "Anton", sans-serif;
+            font-weight: 500;
+            justify-content: center;
+          }
+        }
+
+        a {
+          text-decoration: none;
+        }
+      }
+
+      .bannerInferior#{$fotosa}:hover {
+        -webkit-transform: scale(1.15);
+        -moz-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+        -o-transform: scale(1.15);
+        transform: scale(1.15);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .grillaAcercaDeNosotros {
+    display: grid;
+    width: 100vw;
+    height: auto;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 100%;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 5vh;
+    padding-top: 0vh;
+
+    .divImagenAcercaDeNosotros {
+      justify-items: center;
+      align-items: center;
+
+      .imagenPrincipalAcercaDeNosotros {
+        padding-top: 10vh;
+        margin-left: 0px;
+        width: 40vw;
+        height: auto;
+      }
+    }
+    .divParrafoAcercaDeNosotros {
+      width: 50vw;
+
+      .parrafoAcercaDeNosotros {
+        padding-top: 10vh;
+        color: rgb(39, 10, 20);
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        word-spacing: 5px;
+        text-align: justify;
+      }
+    }
+  }
+}

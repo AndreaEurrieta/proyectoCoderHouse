@@ -1,0 +1,156 @@
+.contenedorPYVideoHome {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 700px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 70px;
+
+  .iframe{
+    width: 48vw;
+    height: 30vw;
+  }
+  div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tituloParrafoHome {
+    display: flex;
+    color: rgb(39, 10, 20);
+    font-size: 30px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .parrafoHome {
+    color: rgb(39, 10, 20);
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+  }
+
+  .listaParrafoHome {
+    padding-top: 20px;
+    color: rgb(39, 10, 20);
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 40px;
+    margin-right: 20px;
+    word-spacing: 10px;
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 425px){
+
+.contenedorPYVideoHome {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-items: center;
+  align-items: center;
+  margin-top: 50px;
+
+  .iframe{
+    width: 90vw;
+    height: 30vh;
+    margin-bottom: 5vh;
+  }
+  .tituloParrafoHome {
+    display: flex;
+    color: rgb(39, 10, 20);
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .parrafoHome {
+    color: rgb(39, 10, 20);
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 20px;
+    text-align: justify;
+  }
+
+  .listaParrafoHome {
+    padding-top: 20px;
+    color: rgb(39, 10, 20);
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    word-spacing: normal;
+    margin-left: 10px;
+    text-align: justify;
+  }
+}
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .contenedorPYVideoHome {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 700px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 60px;
+  
+    .iframe{
+      width: 50vw;
+      height: 30vw;
+    }
+    div{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .tituloParrafoHome {
+      display: flex;
+      color: rgb(39, 10, 20);
+      font-size: 25px;
+      font-family: "Manrope", sans-serif;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+      letter-spacing: 5px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .parrafoHome {
+      color: rgb(39, 10, 20);
+      font-size: 15px;
+      font-family: "Poppins", sans-serif;
+      margin-left: 15px;
+      margin-right: 20px;
+      text-align: justify;
+    }
+  
+    .listaParrafoHome {
+      padding-top: 20px;
+      color: rgb(39, 10, 20);
+      font-size: 15px;
+      font-family: "Poppins", sans-serif;
+      margin-left: 20px;
+      margin-right: 20px;
+      word-spacing: 10px;
+      text-align: justify;
+    }
+  }
+}

@@ -1,0 +1,116 @@
+.listaDeContacto {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  text-transform: lowercase;
+  list-style-type: none;
+  height: auto;
+}
+
+.pEstilo {
+  color: rgb(39, 10, 20);
+  font-size: 15px;
+  font-weight: 100%;
+  font-family: "Manrope", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.fondoImagen {
+  display: flex;
+  background-image: url(../imagenes/contactanos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  .formulario {
+    height: 100%;
+    width: 100%;
+    padding: 20vh 7vw;
+    background-color: rgba($color: rgb(255, 255, 255), $alpha: 0.4);
+    align-items: center;
+    justify-items: center;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .listaDeContacto {
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    text-transform: lowercase;
+    list-style-type: none;
+    height: auto;
+  }
+
+  .pEstilo {
+    color: rgb(39, 10, 20);
+    font-size: 11px;
+    font-weight: 100%;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+
+  .fondoImagen {
+    display: flex;
+    background-image: url(../imagenes/contactanos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    .formulario {
+      height: 100%;
+      width: 100%;
+      padding: 10vh 7vw;
+      background-color: rgba($color: rgb(255, 255, 255), $alpha: 0.4);
+      align-items: center;
+      justify-items: center;
+    }
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .listaDeContacto {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: lowercase;
+    list-style-type: none;
+    height: auto;
+  }
+
+  .pEstilo {
+    color: rgb(39, 10, 20);
+    font-size: 15px;
+    font-weight: 100%;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+
+  .fondoImagen {
+    display: flex;
+    background-image: url(../imagenes/contactanos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    .formulario {
+      height: 100%;
+      width: 100%;
+      padding: 20vh 7vw;
+      background-color: rgba($color: rgb(255, 255, 255), $alpha: 0.4);
+      align-items: center;
+      justify-items: center;
+    }
+  }
+}

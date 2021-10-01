@@ -1,0 +1,2123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tituloSecundario {
+  color: #270a14;
+  font-size: 35px;
+  font-family: "Manrope", sans-serif;
+  text-transform: uppercase;
+  margin-left: 50px;
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 425px) {
+  .tituloSecundario {
+    color: #270a14;
+    font-size: 30px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .tituloSecundario {
+    color: #270a14;
+    font-size: 35px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+  }
+}
+
+.estiloFooter {
+  padding: 5px 2vw;
+  color: white;
+  font-size: 15px;
+  font-family: "Manrope", sans-serif;
+  background-color: #0a0808;
+  height: 40px;
+}
+
+.contenedorPrincipalGaleria {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: auto;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  -webkit-column-gap: 25px;
+          column-gap: 25px;
+  row-gap: 35px;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.contenedorPrincipalGaleria .imagenesGaleria {
+  height: 450px;
+  width: auto;
+}
+
+.contenedorPrincipalGaleria .animacionFotosDeGaleria:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+@media only screen and (max-width: 425px) {
+  .contenedorPrincipalGaleria {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedorPrincipalGaleria .imagenesGaleria {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 800px) {
+  .contenedorPrincipalGaleria {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: auto;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+    row-gap: 20px;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedorPrincipalGaleria .imagenesGaleria {
+    width: 40vw;
+    height: auto;
+  }
+}
+
+.iconoWhatsapp {
+  color: #270a14;
+  font-size: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 0px;
+}
+
+@media only screen and (max-width: 425px) {
+  .iconoWhatsapp {
+    color: #270a14;
+    font-size: 40px;
+    position: fixed;
+    margin-right: 0px;
+    right: 20px;
+    bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .iconoWhatsapp {
+    color: #270a14;
+    font-size: 50px;
+    position: fixed;
+    margin-right: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+}
+
+.tituloSugarcake {
+  color: #270a14;
+  font-size: 80px;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 5px;
+  font-weight: 300;
+}
+
+.tituloPasteleriaCreativa {
+  color: white;
+  font-size: 40px;
+  font-weight: 50;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.madeWL {
+  color: white;
+  font-size: 40px;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  font-weight: 50;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 425px) {
+  .tituloSugarcake {
+    color: #270a14;
+    font-size: 35px;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    letter-spacing: 5px;
+    font-weight: 300;
+  }
+  .tituloPasteleriaCreativa {
+    color: white;
+    font-size: 20px;
+    font-weight: 50;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .madeWL {
+    color: white;
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    font-weight: 50;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .tituloSugarcake {
+    color: #270a14;
+    font-size: 60px;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    letter-spacing: 5px;
+    font-weight: 300;
+  }
+  .tituloPasteleriaCreativa {
+    color: white;
+    font-size: 30px;
+    font-weight: 50;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .madeWL {
+    color: white;
+    font-size: 30px;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    font-weight: 50;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
+.contenedorPYVideoHome {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: auto;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 700px;
+      grid-template-rows: 700px;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 70px;
+}
+
+.contenedorPYVideoHome .iframe {
+  width: 48vw;
+  height: 30vw;
+}
+
+.contenedorPYVideoHome div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contenedorPYVideoHome .tituloParrafoHome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #270a14;
+  font-size: 30px;
+  font-family: "Manrope", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  letter-spacing: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.contenedorPYVideoHome .parrafoHome {
+  color: #270a14;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 40px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+.contenedorPYVideoHome .listaParrafoHome {
+  padding-top: 20px;
+  color: #270a14;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 40px;
+  margin-right: 20px;
+  word-spacing: 10px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 425px) {
+  .contenedorPYVideoHome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 50px;
+  }
+  .contenedorPYVideoHome .iframe {
+    width: 90vw;
+    height: 30vh;
+    margin-bottom: 5vh;
+  }
+  .contenedorPYVideoHome .tituloParrafoHome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #270a14;
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 5px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .contenedorPYVideoHome .parrafoHome {
+    color: #270a14;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 20px;
+    text-align: justify;
+  }
+  .contenedorPYVideoHome .listaParrafoHome {
+    padding-top: 20px;
+    color: #270a14;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    word-spacing: normal;
+    margin-left: 10px;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .contenedorPYVideoHome {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: auto;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 700px;
+        grid-template-rows: 700px;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 60px;
+  }
+  .contenedorPYVideoHome .iframe {
+    width: 50vw;
+    height: 30vw;
+  }
+  .contenedorPYVideoHome div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contenedorPYVideoHome .tituloParrafoHome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #270a14;
+    font-size: 25px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .contenedorPYVideoHome .parrafoHome {
+    color: #270a14;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 15px;
+    margin-right: 20px;
+    text-align: justify;
+  }
+  .contenedorPYVideoHome .listaParrafoHome {
+    padding-top: 20px;
+    color: #270a14;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    word-spacing: 10px;
+    text-align: justify;
+  }
+}
+
+.grillaAcercaDeNosotros {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: auto;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 60%;
+      grid-template-rows: 60%;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 25vh;
+}
+
+.grillaAcercaDeNosotros .divImagenAcercaDeNosotros {
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grillaAcercaDeNosotros .divImagenAcercaDeNosotros .imagenPrincipalAcercaDeNosotros {
+  padding-top: 25vh;
+  width: 40vw;
+  height: auto;
+}
+
+.grillaAcercaDeNosotros .divParrafoAcercaDeNosotros {
+  width: 40vw;
+}
+
+.grillaAcercaDeNosotros .divParrafoAcercaDeNosotros .parrafoAcercaDeNosotros {
+  color: #270a14;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  word-spacing: 5px;
+  text-align: justify;
+}
+
+.bannerflex3 {
+  width: 98vw;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bannerflex3 .bannerInferior {
+  width: 100vw;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bannerflex3 .bannerInferiorContenedor {
+  height: 50vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 {
+  background-image: url("../imagenes/acn1.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 .bannerInferiorColor {
+  background-color: rgba(88, 88, 88, 0.1);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 {
+  background-image: url("../imagenes/acn2.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 .bannerInferiorColor {
+  background-color: rgba(88, 88, 88, 0.1);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 {
+  background-image: url("../imagenes/acn3.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 .bannerInferiorColor {
+  background-color: rgba(88, 88, 88, 0.1);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 {
+  background-image: url("../imagenes/acn4.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 .bannerInferiorColor {
+  background-color: rgba(88, 88, 88, 0.1);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+@media only screen and (max-width: 425px) {
+  .grillaAcercaDeNosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+    height: auto;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 0px;
+  }
+  .grillaAcercaDeNosotros .divImagenAcercaDeNosotros {
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .grillaAcercaDeNosotros .divImagenAcercaDeNosotros .imagenPrincipalAcercaDeNosotros {
+    padding-top: 0px;
+    margin-left: 0px;
+    width: 90vw;
+    height: auto;
+  }
+  .grillaAcercaDeNosotros .divParrafoAcercaDeNosotros {
+    width: 90vw;
+  }
+  .grillaAcercaDeNosotros .divParrafoAcercaDeNosotros .parrafoAcercaDeNosotros {
+    padding-top: 5vh;
+    color: #270a14;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    word-spacing: 5px;
+    text-align: justify;
+  }
+}
+
+.bannerflex3 {
+  width: 100vw;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bannerflex3 .bannerInferior {
+  width: 100vw;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bannerflex3 .bannerInferiorContenedor {
+  height: 20vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 {
+  background-image: url("../imagenes/acn1.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 .bannerInferiorColor {
+  background-color: rgba(88, 88, 88, 0.1);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 {
+  background-image: url("../imagenes/acn2.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 .bannerInferiorColor {
+  background-color: rgba(88, 88, 88, 0.1);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 {
+  background-image: url("../imagenes/acn3.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 .bannerInferiorColor {
+  background-color: rgba(88, 88, 88, 0.1);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 {
+  background-image: url("../imagenes/acn4.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 .bannerInferiorColor {
+  background-color: rgba(88, 88, 88, 0.1);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .grillaAcercaDeNosotros {
+    display: -ms-grid;
+    display: grid;
+    width: 100vw;
+    height: auto;
+    -ms-grid-columns: 45% 55%;
+        grid-template-columns: 45% 55%;
+    -ms-grid-rows: 100%;
+        grid-template-rows: 100%;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 5vh;
+    padding-top: 0vh;
+  }
+  .grillaAcercaDeNosotros .divImagenAcercaDeNosotros {
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .grillaAcercaDeNosotros .divImagenAcercaDeNosotros .imagenPrincipalAcercaDeNosotros {
+    padding-top: 10vh;
+    margin-left: 0px;
+    width: 40vw;
+    height: auto;
+  }
+  .grillaAcercaDeNosotros .divParrafoAcercaDeNosotros {
+    width: 50vw;
+  }
+  .grillaAcercaDeNosotros .divParrafoAcercaDeNosotros .parrafoAcercaDeNosotros {
+    padding-top: 10vh;
+    color: #270a14;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    word-spacing: 5px;
+    text-align: justify;
+  }
+}
+
+.listaDeContacto {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  text-transform: lowercase;
+  list-style-type: none;
+  height: auto;
+}
+
+.pEstilo {
+  color: #270a14;
+  font-size: 15px;
+  font-weight: 100%;
+  font-family: "Manrope", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.fondoImagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../imagenes/contactanos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fondoImagen .formulario {
+  height: 100%;
+  width: 100%;
+  padding: 20vh 7vw;
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+@media only screen and (max-width: 425px) {
+  .listaDeContacto {
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    text-transform: lowercase;
+    list-style-type: none;
+    height: auto;
+  }
+  .pEstilo {
+    color: #270a14;
+    font-size: 11px;
+    font-weight: 100%;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  .fondoImagen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(../imagenes/contactanos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fondoImagen .formulario {
+    height: 100%;
+    width: 100%;
+    padding: 10vh 7vw;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .listaDeContacto {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: lowercase;
+    list-style-type: none;
+    height: auto;
+  }
+  .pEstilo {
+    color: #270a14;
+    font-size: 15px;
+    font-weight: 100%;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  .fondoImagen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(../imagenes/contactanos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fondoImagen .formulario {
+    height: 100%;
+    width: 100%;
+    padding: 20vh 7vw;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+  }
+}
+
+.bannerflex3 {
+  width: 100%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bannerflex3 .bannerInferior {
+  width: 100vw;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bannerflex3 .bannerInferiorContenedor {
+  height: 50vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 {
+  background-image: url("../imagenes/receta1.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 .bannerInferiorColor {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 {
+  background-image: url("../imagenes/receta2.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 .bannerInferiorColor {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 {
+  background-image: url("../imagenes/receta3.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 .bannerInferiorColor {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 {
+  background-image: url("../imagenes/receta4.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 .bannerInferiorColor {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.tabla {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid black;
+  margin: 20vh 20vw;
+}
+
+@media only screen and (max-width: 425px) {
+  .bannerflex3 {
+    width: 100%;
+    height: 20vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerflex3 .bannerInferior {
+    width: 100vw;
+    height: 20vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerflex3 .bannerInferiorContenedor {
+    height: 20vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 {
+    background-image: url("../imagenes/receta1.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 .bannerInferiorColor {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 {
+    background-image: url("../imagenes/receta2.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 .bannerInferiorColor {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 {
+    background-image: url("../imagenes/receta3.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 .bannerInferiorColor {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 {
+    background-image: url("../imagenes/receta4.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 .bannerInferiorColor {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .tabla {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 1px solid black;
+    margin: 2vh 2vw;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .bannerflex3 {
+    width: 100%;
+    height: 40vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerflex3 .bannerInferior {
+    width: 100vw;
+    height: 40vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerflex3 .bannerInferiorContenedor {
+    height: 40vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 {
+    background-image: url("../imagenes/receta1.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 .bannerInferiorColor {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 {
+    background-image: url("../imagenes/receta2.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 .bannerInferiorColor {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 {
+    background-image: url("../imagenes/receta3.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 .bannerInferiorColor {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 {
+    background-image: url("../imagenes/receta4.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 .bannerInferiorColor {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+}
+
+.divLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0% 1%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.divLogo .logo {
+  width: 7vw;
+  height: auto;
+}
+
+.ulNavbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.ulNavbar li {
+  margin: 0% 1%;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 425px) {
+  .divLogo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0% 3%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .divLogo .logo {
+    width: 80px;
+    height: auto;
+  }
+  .ulNavbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    padding-left: 0vw;
+    margin: 3vw;
+  }
+  .ulNavbar li {
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .divLogo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0% 1%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .divLogo .logo {
+    width: 90px;
+    height: auto;
+  }
+  .ulNavbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ulNavbar li {
+    margin: 0% 0%;
+    white-space: nowrap;
+  }
+  .ulNavbar li a {
+    font-size: 13.5px;
+    padding: 1px 2px;
+  }
+}
+
+.targetasContenedor {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  width: 100%;
+  height: auto;
+  padding: 10vh 0px;
+}
+
+.targetasContenedor .targetasContenedor__targeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.targetasContenedor .targetasContenedor__targeta .columnaIndex {
+  width: 25vw;
+}
+
+@media only screen and (max-width: 425px) {
+  .targetasContenedor {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+    padding: 10vh 0px;
+  }
+  .targetasContenedor .targetasContenedor__targeta .columnaIndex {
+    width: 90vw;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .targetasContenedor {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: auto;
+    padding: 10vh 0px;
+  }
+  .targetasContenedor .targetasContenedor__targeta .columnaIndex {
+    width: 40vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */

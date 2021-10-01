@@ -1,0 +1,104 @@
+.tituloSugarcake {
+  color: rgb(39, 10, 20);
+  font-size: 80px;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+  font-weight: 300;
+}
+
+.tituloPasteleriaCreativa {
+  color: white;
+  font-size: 40px;
+  font-weight: 50;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.madeWL {
+  color: white;
+  font-size: 40px;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  font-weight: 50;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 425px){
+  .tituloSugarcake {
+    color: rgb(39, 10, 20);
+    font-size: 35px;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    font-weight: 300;
+  }
+  
+  .tituloPasteleriaCreativa {
+    color: white;
+    font-size: 20px;
+    font-weight: 50;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  
+  .madeWL {
+    color: white;
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    font-weight: 50;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .tituloSugarcake {
+    color: rgb(39, 10, 20);
+    font-size: 60px;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    font-weight: 300;
+  }
+  
+  .tituloPasteleriaCreativa {
+    color: white;
+    font-size: 30px;
+    font-weight: 50;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  
+  .madeWL {
+    color: white;
+    font-size: 30px;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    font-weight: 50;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+}
