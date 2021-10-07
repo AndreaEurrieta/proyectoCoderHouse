@@ -65,61 +65,61 @@
     }
   }
 }
-.grilla{
+.grilla {
   display: grid;
   width: 100%;
   height: auto;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 30% 30% 48%;
+  grid-template-rows: 28% 32% 40%;
   justify-items: center;
   align-items: center;
-  padding-top: 5vh;
+  padding-top: 15vh;
+  margin-bottom: 5vh;
 
-  h2{
+  h2 {
     display: flex;
     color: rgb(39, 10, 20);
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Manrope", sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 5vh;
   }
 
-  .titulosLista{
-    color: rgb(39, 10, 20);
-    font-size: 20px;
-    font-family: "Manrope", sans-serif;
-    text-transform: uppercase;
-    text-align: justify;
-  
-    li{
-    padding-top: 20px;
+  .titulosLista {
     color: rgb(39, 10, 20);
     font-size: 15px;
     font-family: "Poppins", sans-serif;
-    text-transform:lowercase;
-    margin-left: 40px;
-    margin-right: 20px;
+    text-transform: uppercase;
     text-align: justify;
-    
-  }
-} 
 
-  .imagenesRecetas{
-    height: 700px;
+    li {
+      padding-top: 2vh;
+      color: rgb(39, 10, 20);
+      font-size: 15px;
+      font-family: "Poppins", sans-serif;
+      text-transform: lowercase;
+      margin-left: 40px;
+      margin-right: 20px;
+      text-align: justify;
+    }
+  }
+
+  .imagenReceta1 {
+    height: 90vh;
     width: auto;
   }
-
+  .imagenReceta2 {
+    height: 100vh;
+    width: auto;
   }
-
-
-.tabla {
-  display: flex;
-  justify-content: center;
-  border: 1px solid black;
-  margin: 20vh 20vw;
+  .imagenReceta3 {
+    height: 115vh;
+    width: auto;
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -190,12 +190,65 @@
       }
     }
   }
-  .tabla {
+  
+.grilla {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-items: center;
+  align-items: center;
+  padding-top: 10vh;
+  margin-bottom: 5vh;
+
+  h2 {
     display: flex;
+    color: rgb(39, 10, 20);
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
     justify-content: center;
-    border: 1px solid black;
-    margin: 2vh 2vw;
+    align-items: center;
+    text-align: center;
+    padding-top: 5vh;
   }
+
+  .titulosLista {
+    color: rgb(39, 10, 20);
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    text-align: justify;
+
+    li {
+      padding-top: 10px;
+      color: rgb(39, 10, 20);
+      font-size: 15px;
+      font-family: "Poppins", sans-serif;
+      text-transform: lowercase;
+      margin-left: 40px;
+      margin-right: 20px;
+      text-align: justify;
+    }
+  }
+  .imagenReceta1 {
+    margin-top: 5vh;
+    height: 80vh;
+    width: auto;
+  }
+  .imagenReceta2 {
+    margin-top: 5vh;
+    height: 80vh;
+    width: auto;
+  }
+  .imagenReceta3 {
+    margin-top: 5vh;
+    height: 80vh;
+    width: auto;
+  }
+  
+}
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
@@ -264,6 +317,62 @@
           transform: scale(1.15);
         }
       }
+    }
+  }
+  .grilla {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 28% 32% 40%;
+    justify-items: none;
+    align-items: center;
+    padding-top: 15vh;
+    margin-bottom: 5vh;
+  
+    h2 {
+      display: flex;
+      color: rgb(39, 10, 20);
+      font-size: 20px;
+      font-family: "Manrope", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 5vh;
+    }
+  
+    .titulosLista {
+      color: rgb(39, 10, 20);
+      font-size: 15px;
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+      text-align: justify;
+  
+      li {
+        padding-top: 0px;
+        color: rgb(39, 10, 20);
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        text-transform: lowercase;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: justify;
+      }
+    }
+  
+    .imagenReceta1 {
+      height: 55vh;
+      width: auto;
+    }
+    .imagenReceta2 {
+      height: 55vh;
+      width: auto;
+    }
+    .imagenReceta3 {
+      height: 55vh;
+      width: auto;
     }
   }
 }
