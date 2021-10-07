@@ -1481,6 +1481,64 @@
   transform: scale(1.15);
 }
 
+.grilla {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: auto;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 30% 30% 48%;
+      grid-template-rows: 30% 30% 48%;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 5vh;
+}
+
+.grilla h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #270a14;
+  font-size: 30px;
+  font-family: "Manrope", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.grilla .titulosLista {
+  color: #270a14;
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+.grilla .titulosLista li {
+  padding-top: 20px;
+  color: #270a14;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  text-transform: lowercase;
+  margin-left: 40px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+.grilla .imagenesRecetas {
+  height: 700px;
+  width: auto;
+}
+
 .tabla {
   display: -webkit-box;
   display: -ms-flexbox;

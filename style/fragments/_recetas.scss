@@ -65,6 +65,55 @@
     }
   }
 }
+.grilla{
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 30% 30% 48%;
+  justify-items: center;
+  align-items: center;
+  padding-top: 5vh;
+
+  h2{
+    display: flex;
+    color: rgb(39, 10, 20);
+    font-size: 30px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .titulosLista{
+    color: rgb(39, 10, 20);
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    text-align: justify;
+  
+    li{
+    padding-top: 20px;
+    color: rgb(39, 10, 20);
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform:lowercase;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+    
+  }
+} 
+
+  .imagenesRecetas{
+    height: 700px;
+    width: auto;
+  }
+
+  }
+
 
 .tabla {
   display: flex;
