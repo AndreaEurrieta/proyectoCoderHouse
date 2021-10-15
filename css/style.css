@@ -167,6 +167,121 @@ footer .final .redesSociales .img1 {
   margin: 2vw 2vh;
 }
 
+@media only screen and (max-width: 425px) {
+  footer {
+    background-color: #1d1b1c;
+  }
+  footer .grillaFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+    justify-items: center;
+  }
+  footer .grillaFooter .col1 {
+    margin-top: 5vh;
+  }
+  footer .grillaFooter .col1 h2 {
+    color: #b9b9b9;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    text-align: center;
+  }
+  footer .grillaFooter .col1 p {
+    margin-top: 2vh;
+    color: #b9b9b9;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  footer .grillaFooter .col2 {
+    margin-top: 5vh;
+  }
+  footer .grillaFooter .col2 ul {
+    list-style-type: none;
+    color: #b9b9b9;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 0rem;
+  }
+  footer .grillaFooter .col2 ul li {
+    margin-top: 2vh;
+  }
+  footer .grillaFooter .col2 ul li a {
+    font-size: 14px;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style-type: none;
+    color: #b9b9b9;
+  }
+  footer .grillaFooter .col3 {
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  footer .grillaFooter .col3 h2 {
+    color: #b9b9b9;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    text-align: center;
+  }
+  footer .grillaFooter .col3 p {
+    color: #b9b9b9;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  footer .final {
+    background-color: black;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 10vh;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 100%;
+        grid-template-rows: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .final .copy {
+    margin-left: 2vw;
+    color: white;
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+  }
+  footer .final .redesSociales {
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .final .redesSociales img {
+    width: 6vw;
+    height: auto;
+    margin: 2vw 2vh;
+  }
+  footer .final .redesSociales .img1 {
+    width: 5.5vw;
+    height: auto;
+    margin: 2vw 2vh;
+  }
+}
+
 .contenedorPrincipalGaleria {
   display: -ms-grid;
   display: grid;
@@ -608,7 +723,7 @@ footer .final .redesSociales .img1 {
 }
 
 .grillaAcercaDeNosotros .divImagenAcercaDeNosotros .imagenPrincipalAcercaDeNosotros {
-  padding-top: 25vh;
+  margin-top: 25vh;
   width: 40vw;
   height: auto;
 }
