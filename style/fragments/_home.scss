@@ -27,9 +27,7 @@
         height: auto;
         padding: 10vh 0px;
         .targetasContenedor__targeta{
-    
-    
-    
+      
             .columnaIndex{
                 width: 90vw;
                 
@@ -58,4 +56,9 @@
     }
 }
   }
-  
+
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+  }
+
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+  }

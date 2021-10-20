@@ -120,6 +120,9 @@
     height: 115vh;
     width: auto;
   }
+  .animacionFotos:hover {
+    transform: scale(1.1, 1.1);
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -254,20 +257,20 @@
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .bannerflex3 {
     width: 100%;
-    height: 40vh;
+    height: 35vh;
     display: flex;
     text-decoration: none;
     overflow: hidden;
 
     .bannerInferior {
       width: 100vw;
-      height: 40vh;
+      height: 35vh;
       display: flex;
       text-decoration: none;
       overflow: hidden;
     }
     .bannerInferiorContenedor {
-      height: 40vh;
+      height: 35vh;
       width: 100%;
       display: flex;
       text-decoration: none;
@@ -320,20 +323,19 @@
     }
   }
   .grilla {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: auto;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 28% 32% 40%;
-    justify-items: none;
+    justify-items: center;
     align-items: center;
-    padding-top: 15vh;
-    margin-bottom: 5vh;
+    padding-top: 10vh;
+    margin-bottom: 10vh;
   
     h2 {
       display: flex;
       color: rgb(39, 10, 20);
-      font-size: 20px;
+      font-size: 18px;
       font-family: "Manrope", sans-serif;
       text-transform: uppercase;
       letter-spacing: 5px;
@@ -363,16 +365,273 @@
     }
   
     .imagenReceta1 {
-      height: 55vh;
-      width: auto;
+      height: auto;
+      width: 70vw;
+      margin: 5vh 0vw;
+
     }
     .imagenReceta2 {
-      height: 55vh;
-      width: auto;
+      margin-top: 5vh;
+      height: auto;
+      width: 70vw;
     }
     .imagenReceta3 {
-      height: 55vh;
-      width: auto;
+      height: auto;
+      width: 70vw;
+      margin-top: 5vh;
+    }
+
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+.bannerflex3 {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+
+  .bannerInferior {
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerInferiorContenedor {
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+
+    @each $fotosr in receta1, receta2, receta3, receta4 {
+      .bannerInferior#{$fotosr} {
+        background-image: url("../imagenes/#{$fotosr}.png");
+        flex: 1;
+        background-size: cover;
+        background-position-x: center;
+        text-decoration: none;
+        transition: cubic-bezier();
+        -webkit-transition: all 0.9s ease; /* Safari y Chrome */
+        -moz-transition: all 0.9s ease; /* Firefox */
+        -o-transition: all 0.9s ease; /* IE 9 */
+        -ms-transition: all 0.9s ease; /* Opera */
+        width: 100%;
+
+        .bannerInferiorColor {
+          background-color: rgba(0, 0, 0, 0.3);
+          height: 100%;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          h4 {
+            font-size: 1rem;
+            color: #fff;
+            font-family: "Anton", sans-serif;
+            font-weight: 500;
+            justify-content: center;
+          }
+        }
+
+        a {
+          text-decoration: none;
+        }
+      }
+
+      .bannerInferior#{$fotosr}:hover {
+        -webkit-transform: scale(1.15);
+        -moz-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+        -o-transform: scale(1.15);
+        transform: scale(1.15);
+      }
     }
   }
 }
+.grilla {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 28% 32% 40%;
+  padding-top: 15vh;
+  margin-bottom: 5vh;
+  align-items:flex-start;
+
+  h2 {
+    display: flex;
+    color: rgb(39, 10, 20);
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5vh;
+  }
+
+  .titulosLista {
+    color: rgb(39, 10, 20);
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    text-align: justify;
+
+    li {
+      padding-top: 2vh;
+      color: rgb(39, 10, 20);
+      font-size: 15px;
+      font-family: "Poppins", sans-serif;
+      text-transform: lowercase;
+      margin-left: 40px;
+      margin-right: 20px;
+      text-align: justify;
+    }
+  }
+
+  .imagenReceta1 {
+    height: 90vh;
+    width: auto;
+    margin-top: 15vh;
+  }
+  .imagenReceta2 {
+    height: 95vh;
+    width: auto;
+    margin-top: 15vh;
+  }
+  .imagenReceta3 {
+    height: 95vh;
+    width: auto;
+    margin-top: 15vh;
+  }
+}
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .bannerflex3 {
+    width: 100%;
+    height: 48vh;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  
+    .bannerInferior {
+      width: 100vw;
+      height: 48vh;
+      display: flex;
+      text-decoration: none;
+      overflow: hidden;
+    }
+    .bannerInferiorContenedor {
+      height: 48vh;
+      width: 100%;
+      display: flex;
+      text-decoration: none;
+      overflow: hidden;
+  
+      @each $fotosr in receta1, receta2, receta3, receta4 {
+        .bannerInferior#{$fotosr} {
+          background-image: url("../imagenes/#{$fotosr}.png");
+          flex: 1;
+          background-size: cover;
+          background-position-x: center;
+          text-decoration: none;
+          transition: cubic-bezier();
+          -webkit-transition: all 0.9s ease; /* Safari y Chrome */
+          -moz-transition: all 0.9s ease; /* Firefox */
+          -o-transition: all 0.9s ease; /* IE 9 */
+          -ms-transition: all 0.9s ease; /* Opera */
+          width: 100%;
+  
+          .bannerInferiorColor {
+            background-color: rgba(0, 0, 0, 0.3);
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+  
+            h4 {
+              font-size: 1rem;
+              color: #fff;
+              font-family: "Anton", sans-serif;
+              font-weight: 500;
+              justify-content: center;
+            }
+          }
+  
+          a {
+            text-decoration: none;
+          }
+        }
+  
+        .bannerInferior#{$fotosr}:hover {
+          -webkit-transform: scale(1.15);
+          -moz-transform: scale(1.15);
+          -ms-transform: scale(1.15);
+          -o-transform: scale(1.15);
+          transform: scale(1.15);
+        }
+      }
+    }
+  }
+  .grilla {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 28% 32% 40%;
+    padding-top: 15vh;
+    margin-bottom: 5vh;
+    align-items: center;
+  
+    h2 {
+      display: flex;
+      color: rgb(39, 10, 20);
+      font-size: 20px;
+      font-family: "Manrope", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 5vh;
+    }
+  
+    .titulosLista {
+      color: rgb(39, 10, 20);
+      font-size: 15px;
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+      text-align: justify;
+  
+      li {
+        padding-top: 2vh;
+        color: rgb(39, 10, 20);
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+        text-transform: lowercase;
+        margin-left: 40px;
+        margin-right: 20px;
+        text-align: justify;
+      }
+    }
+  
+    .imagenReceta1 {
+      height: 95vh;
+      width: auto;
+    }
+    .imagenReceta2 {
+      height: 100vh;
+      width: auto;
+    }
+    .imagenReceta3 {
+      height: 110vh;
+      width: auto;
+    }
+  }
+  } 

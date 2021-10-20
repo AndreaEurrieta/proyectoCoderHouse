@@ -18,7 +18,7 @@
 @media only screen and (max-width: 425px) {
   .tituloSecundario {
     color: #270a14;
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Manrope", sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -33,7 +33,35 @@
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .tituloSecundario {
     color: #270a14;
-    font-size: 35px;
+    font-size: 28px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .tituloSecundario {
+    color: #270a14;
+    font-size: 30px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .tituloSecundario {
+    color: #270a14;
+    font-size: 33px;
     font-family: "Manrope", sans-serif;
     text-transform: uppercase;
     height: 50px;
@@ -52,12 +80,13 @@ footer .grillaFooter {
   display: -ms-grid;
   display: grid;
   width: 100%;
-  height: 50vh;
+  height: 100%;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 100%;
       grid-template-rows: 100%;
   justify-items: center;
+  margin-bottom: 5vh;
 }
 
 footer .grillaFooter .col1 {
@@ -86,6 +115,7 @@ footer .grillaFooter .col2 {
 }
 
 footer .grillaFooter .col2 ul {
+  padding-left: 0rem;
   list-style-type: none;
   color: #b9b9b9;
   font-size: 15px;
@@ -282,6 +312,345 @@ footer .final .redesSociales .img1 {
   }
 }
 
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  footer {
+    background-color: #1d1b1c;
+  }
+  footer .grillaFooter {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    -ms-grid-columns: 60% 40%;
+        grid-template-columns: 60% 40%;
+    -ms-grid-rows: 50% 50%;
+        grid-template-rows: 50% 50%;
+    justify-items: center;
+  }
+  footer .grillaFooter .col1 {
+    margin: 5vh 0vw;
+  }
+  footer .grillaFooter .col1 h2 {
+    color: #b9b9b9;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    text-align: center;
+  }
+  footer .grillaFooter .col1 p {
+    margin-left: 5vw;
+    margin-top: 2vh;
+    color: #b9b9b9;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+  }
+  footer .grillaFooter .col2 {
+    margin: 5vh 0vw;
+  }
+  footer .grillaFooter .col2 ul {
+    padding-left: 0rem;
+    list-style-type: none;
+    color: #b9b9b9;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  footer .grillaFooter .col2 ul li {
+    margin-top: 2vh;
+  }
+  footer .grillaFooter .col2 ul li a {
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style-type: none;
+    color: #b9b9b9;
+  }
+  footer .grillaFooter .col3 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 2vh;
+  }
+  footer .grillaFooter .col3 h2 {
+    color: #b9b9b9;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    text-align: center;
+  }
+  footer .grillaFooter .col3 p {
+    color: #b9b9b9;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  footer .final {
+    background-color: black;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 10vh;
+    -ms-grid-columns: 60% 40%;
+        grid-template-columns: 60% 40%;
+    -ms-grid-rows: 100%;
+        grid-template-rows: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .final .copy {
+    margin-left: 2vw;
+    color: white;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+  }
+  footer .final .redesSociales {
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .final .redesSociales img {
+    width: 5vw;
+    height: auto;
+    margin: 2vw 2vh;
+  }
+  footer .final .redesSociales .img1 {
+    width: 4.5vw;
+    height: auto;
+    margin: 2vw 2vh;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  footer {
+    background-color: #1d1b1c;
+  }
+  footer .grillaFooter {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    -ms-grid-columns: 35% 15% 50%;
+        grid-template-columns: 35% 15% 50%;
+    -ms-grid-rows: 100%;
+        grid-template-rows: 100%;
+    justify-items: center;
+    margin-bottom: 5vh;
+  }
+  footer .grillaFooter .col1 {
+    margin-top: 5vh;
+  }
+  footer .grillaFooter .col1 h2 {
+    color: #b9b9b9;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    text-align: justify;
+  }
+  footer .grillaFooter .col1 p {
+    margin-top: 2vh;
+    color: #b9b9b9;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+  }
+  footer .grillaFooter .col2 {
+    margin-top: 5vh;
+  }
+  footer .grillaFooter .col2 ul {
+    text-align: center;
+    padding-left: 0rem;
+    list-style-type: none;
+    color: #b9b9b9;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  footer .grillaFooter .col2 ul li {
+    margin-top: 2vh;
+  }
+  footer .grillaFooter .col2 ul li a {
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style-type: none;
+    color: #b9b9b9;
+  }
+  footer .grillaFooter .col3 {
+    margin-top: 5vh;
+  }
+  footer .grillaFooter .col3 h2 {
+    color: #b9b9b9;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    word-spacing: 5px;
+  }
+  footer .grillaFooter .col3 p {
+    color: #b9b9b9;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+  }
+  footer .final {
+    background-color: black;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 10vh;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 100%;
+        grid-template-rows: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .final .copy {
+    margin-left: 2vw;
+    color: white;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+  }
+  footer .final .redesSociales {
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .final .redesSociales img {
+    width: 4vw;
+    height: auto;
+    margin: 2vw 2vh;
+  }
+  footer .final .redesSociales .img1 {
+    width: 3.5vw;
+    height: auto;
+    margin: 2vw 2vh;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  footer {
+    background-color: #1d1b1c;
+  }
+  footer .grillaFooter {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 100%;
+        grid-template-rows: 100%;
+    justify-items: center;
+    margin-bottom: 3vh;
+  }
+  footer .grillaFooter .col1 {
+    margin-top: 5vh;
+  }
+  footer .grillaFooter .col1 h2 {
+    color: #b9b9b9;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    text-align: justify;
+  }
+  footer .grillaFooter .col1 p {
+    margin-top: 2vh;
+    color: #b9b9b9;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+  }
+  footer .grillaFooter .col2 {
+    margin-top: 5vh;
+  }
+  footer .grillaFooter .col2 ul {
+    padding-left: 0rem;
+    list-style-type: none;
+    color: #b9b9b9;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  footer .grillaFooter .col2 ul li {
+    margin-top: 2vh;
+  }
+  footer .grillaFooter .col2 ul li a {
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style-type: none;
+    color: #b9b9b9;
+  }
+  footer .grillaFooter .col3 {
+    margin-top: 5vh;
+  }
+  footer .grillaFooter .col3 h2 {
+    color: #b9b9b9;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    word-spacing: 5px;
+  }
+  footer .grillaFooter .col3 p {
+    color: #b9b9b9;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+  }
+  footer .final {
+    background-color: black;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 10vh;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 100%;
+        grid-template-rows: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .final .copy {
+    margin-left: 2vw;
+    color: white;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+  }
+  footer .final .redesSociales {
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .final .redesSociales img {
+    width: 3vw;
+    height: auto;
+    margin: 2vw 2vh;
+  }
+  footer .final .redesSociales .img1 {
+    width: 2.5vw;
+    height: auto;
+    margin: 2vw 2vh;
+  }
+}
+
 .contenedorPrincipalGaleria {
   display: -ms-grid;
   display: grid;
@@ -328,12 +697,12 @@ footer .final .redesSociales .img1 {
             align-items: center;
   }
   .contenedorPrincipalGaleria .imagenesGaleria {
-    width: 100vw;
+    width: 90vw;
     height: auto;
   }
 }
 
-@media only screen and (min-width: 426px) and (max-width: 800px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   .contenedorPrincipalGaleria {
     display: -ms-grid;
     display: grid;
@@ -357,33 +726,104 @@ footer .final .redesSociales .img1 {
   }
 }
 
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .contenedorPrincipalGaleria {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: auto;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+    row-gap: 20px;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedorPrincipalGaleria .imagenesGaleria {
+    width: 35vw;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .contenedorPrincipalGaleria {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: auto;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    -webkit-column-gap: 25px;
+            column-gap: 25px;
+    row-gap: 35px;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 50px;
+  }
+  .contenedorPrincipalGaleria .imagenesGaleria {
+    height: 400px;
+    width: auto;
+  }
+  .contenedorPrincipalGaleria .animacionFotosDeGaleria:hover {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+  }
+}
+
 .iconoWhatsapp {
   color: #270a14;
   font-size: 50px;
   position: fixed;
-  right: 20px;
-  bottom: 100px;
+  right: 2vw;
+  bottom: 12vh;
 }
 
 @media only screen and (max-width: 425px) {
   .iconoWhatsapp {
     color: #270a14;
-    font-size: 40px;
+    font-size: 35px;
     position: fixed;
-    margin-right: 0px;
-    right: 20px;
-    bottom: 0px;
+    right: 1vw;
+    bottom: 10vh;
   }
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .iconoWhatsapp {
     color: #270a14;
-    font-size: 50px;
+    font-size: 40px;
     position: fixed;
-    margin-right: 0px;
-    right: 0px;
-    bottom: 0px;
+    right: 1.5vw;
+    bottom: 10vh;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .iconoWhatsapp {
+    color: #270a14;
+    font-size: 45px;
+    position: fixed;
+    right: 2vw;
+    bottom: 12vh;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .iconoWhatsapp {
+    color: #270a14;
+    font-size: 48px;
+    position: fixed;
+    right: 2vw;
+    bottom: 12vh;
   }
 }
 
@@ -468,7 +908,7 @@ footer .final .redesSociales .img1 {
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .tituloSugarcake {
     color: #270a14;
-    font-size: 60px;
+    font-size: 50px;
     font-family: "Manrope", sans-serif;
     text-align: center;
     text-transform: uppercase;
@@ -504,6 +944,84 @@ footer .final .redesSociales .img1 {
   }
 }
 
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .tituloSugarcake {
+    color: #270a14;
+    font-size: 60px;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    letter-spacing: 5px;
+    font-weight: 300;
+  }
+  .tituloPasteleriaCreativa {
+    color: white;
+    font-size: 35px;
+    font-weight: 50;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .madeWL {
+    color: white;
+    font-size: 35px;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    font-weight: 50;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .tituloSugarcake {
+    color: #270a14;
+    font-size: 70px;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    letter-spacing: 5px;
+    font-weight: 300;
+  }
+  .tituloPasteleriaCreativa {
+    color: white;
+    font-size: 38px;
+    font-weight: 50;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .madeWL {
+    color: white;
+    font-size: 38px;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    font-weight: 50;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
 .contenedorPYVideoHome {
   display: -ms-grid;
   display: grid;
@@ -517,7 +1035,7 @@ footer .final .redesSociales .img1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .contenedorPYVideoHome .iframe {
@@ -589,7 +1107,7 @@ footer .final .redesSociales .img1 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .contenedorPYVideoHome .iframe {
     width: 90vw;
@@ -634,23 +1152,25 @@ footer .final .redesSociales .img1 {
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .contenedorPYVideoHome {
-    display: -ms-grid;
-    display: grid;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
     height: auto;
-    -ms-grid-columns: 50% 50%;
-        grid-template-columns: 50% 50%;
-    -ms-grid-rows: 700px;
-        grid-template-rows: 700px;
     justify-items: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 60px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
   }
   .contenedorPYVideoHome .iframe {
-    width: 50vw;
-    height: 30vw;
+    height: 40vh;
+    width: 80vw;
   }
   .contenedorPYVideoHome div {
     display: -webkit-box;
@@ -694,6 +1214,143 @@ footer .final .redesSociales .img1 {
     font-family: "Poppins", sans-serif;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 5vh;
+    word-spacing: 10px;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .contenedorPYVideoHome {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: auto;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 100%;
+        grid-template-rows: 100%;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 40px;
+    margin-bottom: 10vh;
+  }
+  .contenedorPYVideoHome .iframe {
+    width: 48vw;
+    height: 30vw;
+  }
+  .contenedorPYVideoHome div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contenedorPYVideoHome .tituloParrafoHome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #270a14;
+    font-size: 30px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .contenedorPYVideoHome .parrafoHome {
+    color: #270a14;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+  }
+  .contenedorPYVideoHome .listaParrafoHome {
+    padding-top: 20px;
+    color: #270a14;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 40px;
+    margin-right: 20px;
+    word-spacing: 10px;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .contenedorPYVideoHome {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: auto;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 100%;
+        grid-template-rows: 100%;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 40px;
+    margin-bottom: 10vh;
+  }
+  .contenedorPYVideoHome .iframe {
+    width: 48vw;
+    height: 30vw;
+  }
+  .contenedorPYVideoHome div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contenedorPYVideoHome .tituloParrafoHome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #270a14;
+    font-size: 30px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .contenedorPYVideoHome .parrafoHome {
+    color: #270a14;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+  }
+  .contenedorPYVideoHome .listaParrafoHome {
+    padding-top: 20px;
+    color: #270a14;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 40px;
+    margin-right: 20px;
     word-spacing: 10px;
     text-align: justify;
   }
@@ -706,13 +1363,14 @@ footer .final .redesSociales .img1 {
   height: auto;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
-  -ms-grid-rows: 60%;
-      grid-template-rows: 60%;
+  -ms-grid-rows: 100%;
+      grid-template-rows: 100%;
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 25vh;
+  padding-top: 5vh;
+  margin-bottom: 20vh;
 }
 
 .grillaAcercaDeNosotros .divImagenAcercaDeNosotros {
@@ -1018,6 +1676,7 @@ footer .final .redesSociales .img1 {
     margin-left: 0px;
     width: 90vw;
     height: auto;
+    margin-top: 0px;
   }
   .grillaAcercaDeNosotros .divParrafoAcercaDeNosotros {
     width: 90vw;
@@ -1284,6 +1943,299 @@ footer .final .redesSociales .img1 {
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .grillaAcercaDeNosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+    height: auto;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 0px;
+  }
+  .grillaAcercaDeNosotros .divImagenAcercaDeNosotros {
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .grillaAcercaDeNosotros .divImagenAcercaDeNosotros .imagenPrincipalAcercaDeNosotros {
+    padding-top: 0px;
+    margin-left: 0px;
+    width: 90vw;
+    height: auto;
+    margin-top: 0px;
+  }
+  .grillaAcercaDeNosotros .divParrafoAcercaDeNosotros {
+    width: 90vw;
+  }
+  .grillaAcercaDeNosotros .divParrafoAcercaDeNosotros .parrafoAcercaDeNosotros {
+    padding-top: 5vh;
+    color: #270a14;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    word-spacing: 5px;
+    text-align: justify;
+  }
+}
+
+.bannerflex3 {
+  width: 100vw;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bannerflex3 .bannerInferior {
+  width: 100vw;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bannerflex3 .bannerInferiorContenedor {
+  height: 20vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 {
+  background-image: url("../imagenes/acn1.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 .bannerInferiorColor {
+  background-color: rgba(88, 88, 88, 0.1);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 {
+  background-image: url("../imagenes/acn2.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 .bannerInferiorColor {
+  background-color: rgba(88, 88, 88, 0.1);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 {
+  background-image: url("../imagenes/acn3.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 .bannerInferiorColor {
+  background-color: rgba(88, 88, 88, 0.1);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 {
+  background-image: url("../imagenes/acn4.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 .bannerInferiorColor {
+  background-color: rgba(88, 88, 88, 0.1);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .grillaAcercaDeNosotros {
     display: -ms-grid;
     display: grid;
     width: 100vw;
@@ -1297,7 +2249,7 @@ footer .final .redesSociales .img1 {
         -ms-flex-align: center;
             align-items: center;
     padding-bottom: 5vh;
-    padding-top: 0vh;
+    padding-top: 15vh;
   }
   .grillaAcercaDeNosotros .divImagenAcercaDeNosotros {
     justify-items: center;
@@ -1306,9 +2258,8 @@ footer .final .redesSociales .img1 {
             align-items: center;
   }
   .grillaAcercaDeNosotros .divImagenAcercaDeNosotros .imagenPrincipalAcercaDeNosotros {
-    padding-top: 10vh;
     margin-left: 0px;
-    width: 40vw;
+    width: 42vw;
     height: auto;
   }
   .grillaAcercaDeNosotros .divParrafoAcercaDeNosotros {
@@ -1321,6 +2272,523 @@ footer .final .redesSociales .img1 {
     font-family: "Poppins", sans-serif;
     word-spacing: 5px;
     text-align: justify;
+  }
+}
+
+.bannerflex3 {
+  width: 100vw;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bannerflex3 .bannerInferior {
+  width: 100vw;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bannerflex3 .bannerInferiorContenedor {
+  height: 20vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 {
+  background-image: url("../imagenes/acn1.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 .bannerInferiorColor {
+  background-color: rgba(88, 88, 88, 0.1);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn1:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 {
+  background-image: url("../imagenes/acn2.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 .bannerInferiorColor {
+  background-color: rgba(88, 88, 88, 0.1);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn2:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 {
+  background-image: url("../imagenes/acn3.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 .bannerInferiorColor {
+  background-color: rgba(88, 88, 88, 0.1);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn3:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 {
+  background-image: url("../imagenes/acn4.png");
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-size: cover;
+  background-position-x: center;
+  text-decoration: none;
+  -webkit-transition: cubic-bezier();
+  transition: cubic-bezier();
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 .bannerInferiorColor {
+  background-color: rgba(88, 88, 88, 0.1);
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 .bannerInferiorColor h4 {
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 a {
+  text-decoration: none;
+}
+
+.bannerflex3 .bannerInferiorContenedor .bannerInferioracn4:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .grillaAcercaDeNosotros {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: auto;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 100%;
+        grid-template-rows: 100%;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 15vh;
+    margin-bottom: 15vh;
+  }
+  .grillaAcercaDeNosotros .divImagenAcercaDeNosotros {
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .grillaAcercaDeNosotros .divImagenAcercaDeNosotros .imagenPrincipalAcercaDeNosotros {
+    margin-top: 25vh;
+    width: 43vw;
+    height: auto;
+  }
+  .grillaAcercaDeNosotros .divParrafoAcercaDeNosotros {
+    width: 40vw;
+  }
+  .grillaAcercaDeNosotros .divParrafoAcercaDeNosotros .parrafoAcercaDeNosotros {
+    color: #270a14;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    word-spacing: 5px;
+    text-align: justify;
+  }
+  .bannerflex3 {
+    width: 98vw;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerflex3 .bannerInferior {
+    width: 100vw;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerflex3 .bannerInferiorContenedor {
+    height: 50vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 {
+    background-image: url("../imagenes/acn1.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 .bannerInferiorColor {
+    background-color: rgba(88, 88, 88, 0.1);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn1 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn1:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 {
+    background-image: url("../imagenes/acn2.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 .bannerInferiorColor {
+    background-color: rgba(88, 88, 88, 0.1);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn2 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn2:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 {
+    background-image: url("../imagenes/acn3.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 .bannerInferiorColor {
+    background-color: rgba(88, 88, 88, 0.1);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn3 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn3:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 {
+    background-image: url("../imagenes/acn4.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 .bannerInferiorColor {
+    background-color: rgba(88, 88, 88, 0.1);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn4 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferioracn4:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
   }
 }
 
@@ -1401,6 +2869,82 @@ footer .final .redesSociales .img1 {
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
+  .pEstilo {
+    color: #270a14;
+    font-size: 15px;
+    font-weight: 100%;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  .fondoImagen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(../imagenes/contactanos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fondoImagen .formulario {
+    height: 100%;
+    width: 100%;
+    padding: 20vh 7vw;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .pEstilo {
+    color: #270a14;
+    font-size: 15px;
+    font-weight: 100%;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  .fondoImagen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(../imagenes/contactanos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fondoImagen .formulario {
+    height: 100%;
+    width: 100%;
+    padding: 20vh 7vw;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
   .pEstilo {
     color: #270a14;
     font-size: 15px;
@@ -1758,6 +3302,11 @@ footer .final .redesSociales .img1 {
   width: auto;
 }
 
+.grilla .animacionFotos:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
 @media only screen and (max-width: 425px) {
   .bannerflex3 {
     width: 100%;
@@ -2058,7 +3607,7 @@ footer .final .redesSociales .img1 {
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .bannerflex3 {
     width: 100%;
-    height: 40vh;
+    height: 35vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2067,7 +3616,7 @@ footer .final .redesSociales .img1 {
   }
   .bannerflex3 .bannerInferior {
     width: 100vw;
-    height: 40vh;
+    height: 35vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2075,7 +3624,304 @@ footer .final .redesSociales .img1 {
     overflow: hidden;
   }
   .bannerflex3 .bannerInferiorContenedor {
-    height: 40vh;
+    height: 35vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 {
+    background-image: url("../imagenes/receta1.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 .bannerInferiorColor {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 {
+    background-image: url("../imagenes/receta2.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 .bannerInferiorColor {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 {
+    background-image: url("../imagenes/receta3.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 .bannerInferiorColor {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 {
+    background-image: url("../imagenes/receta4.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 .bannerInferiorColor {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .grilla {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 10vh;
+    margin-bottom: 10vh;
+  }
+  .grilla h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #270a14;
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding-top: 5vh;
+  }
+  .grilla .titulosLista {
+    color: #270a14;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    text-align: justify;
+  }
+  .grilla .titulosLista li {
+    padding-top: 0px;
+    color: #270a14;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: lowercase;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+  }
+  .grilla .imagenReceta1 {
+    height: auto;
+    width: 70vw;
+    margin: 5vh 0vw;
+  }
+  .grilla .imagenReceta2 {
+    margin-top: 5vh;
+    height: auto;
+    width: 70vw;
+  }
+  .grilla .imagenReceta3 {
+    height: auto;
+    width: 70vw;
+    margin-top: 5vh;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .bannerflex3 {
+    width: 100%;
+    height: 45vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerflex3 .bannerInferior {
+    width: 100vw;
+    height: 45vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerflex3 .bannerInferiorContenedor {
+    height: 45vh;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2292,12 +4138,11 @@ footer .final .redesSociales .img1 {
         grid-template-columns: 50% 50%;
     -ms-grid-rows: 28% 32% 40%;
         grid-template-rows: 28% 32% 40%;
-    justify-items: none;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     padding-top: 15vh;
     margin-bottom: 5vh;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .grilla h2 {
     display: -webkit-box;
@@ -2325,25 +4170,320 @@ footer .final .redesSociales .img1 {
     text-align: justify;
   }
   .grilla .titulosLista li {
-    padding-top: 0px;
+    padding-top: 2vh;
     color: #270a14;
     font-size: 15px;
     font-family: "Poppins", sans-serif;
     text-transform: lowercase;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 40px;
+    margin-right: 20px;
     text-align: justify;
   }
   .grilla .imagenReceta1 {
-    height: 55vh;
+    height: 90vh;
+    width: auto;
+    margin-top: 15vh;
+  }
+  .grilla .imagenReceta2 {
+    height: 95vh;
+    width: auto;
+    margin-top: 15vh;
+  }
+  .grilla .imagenReceta3 {
+    height: 95vh;
+    width: auto;
+    margin-top: 15vh;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .bannerflex3 {
+    width: 100%;
+    height: 48vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerflex3 .bannerInferior {
+    width: 100vw;
+    height: 48vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerflex3 .bannerInferiorContenedor {
+    height: 48vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 {
+    background-image: url("../imagenes/receta1.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 .bannerInferiorColor {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta1:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 {
+    background-image: url("../imagenes/receta2.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 .bannerInferiorColor {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta2:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 {
+    background-image: url("../imagenes/receta3.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 .bannerInferiorColor {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta3:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 {
+    background-image: url("../imagenes/receta4.png");
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-size: cover;
+    background-position-x: center;
+    text-decoration: none;
+    -webkit-transition: cubic-bezier();
+    transition: cubic-bezier();
+    -webkit-transition: all 0.9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all 0.9s ease;
+    /* Firefox */
+    -o-transition: all 0.9s ease;
+    /* IE 9 */
+    -ms-transition: all 0.9s ease;
+    /* Opera */
+    width: 100%;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 .bannerInferiorColor {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 .bannerInferiorColor h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4 a {
+    text-decoration: none;
+  }
+  .bannerflex3 .bannerInferiorContenedor .bannerInferiorreceta4:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+  .grilla {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: auto;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 28% 32% 40%;
+        grid-template-rows: 28% 32% 40%;
+    padding-top: 15vh;
+    margin-bottom: 5vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .grilla h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #270a14;
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding-top: 5vh;
+  }
+  .grilla .titulosLista {
+    color: #270a14;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    text-align: justify;
+  }
+  .grilla .titulosLista li {
+    padding-top: 2vh;
+    color: #270a14;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-transform: lowercase;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+  }
+  .grilla .imagenReceta1 {
+    height: 95vh;
     width: auto;
   }
   .grilla .imagenReceta2 {
-    height: 55vh;
+    height: 100vh;
     width: auto;
   }
   .grilla .imagenReceta3 {
-    height: 55vh;
+    height: 110vh;
     width: auto;
   }
 }
@@ -2412,6 +4552,78 @@ footer .final .redesSociales .img1 {
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
+  .divLogo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0% 1%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .divLogo .logo {
+    width: 90px;
+    height: auto;
+  }
+  .ulNavbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ulNavbar li {
+    margin: 0% 0%;
+    white-space: nowrap;
+  }
+  .ulNavbar li a {
+    font-size: 13.5px;
+    padding: 1px 2px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .divLogo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0% 1%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .divLogo .logo {
+    width: 90px;
+    height: auto;
+  }
+  .ulNavbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ulNavbar li {
+    margin: 0% 0%;
+    white-space: nowrap;
+  }
+  .ulNavbar li a {
+    font-size: 13.5px;
+    padding: 1px 2px;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
   .divLogo {
     display: -webkit-box;
     display: -ms-flexbox;

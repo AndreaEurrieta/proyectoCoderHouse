@@ -2,28 +2,44 @@
   color: rgb(39, 10, 20);
   font-size: 50px;
   position: fixed;
-  right: 20px;
-  bottom: 100px;
+  right: 2vw;
+  bottom: 12vh;
 }
 
 @media only screen and (max-width: 425px) {
 
   .iconoWhatsapp {
     color: rgb(39, 10, 20);
-    font-size: 40px;
+    font-size: 35px;
     position: fixed;
-    margin-right: 0px;
-    right: 20px;
-    bottom: 0px;
+    right: 1vw;
+    bottom: 10vh;
   }
 }  
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .iconoWhatsapp {
     color: rgb(39, 10, 20);
-    font-size: 50px;
+    font-size: 40px;
     position: fixed;
-    margin-right: 0px;
-    right: 0px;
-    bottom: 0px;
+    right: 1.5vw;
+    bottom: 10vh;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .iconoWhatsapp {
+    color: rgb(39, 10, 20);
+    font-size: 45px;
+    position: fixed;
+    right: 2vw;
+    bottom: 12vh;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .iconoWhatsapp {
+    color: rgb(39, 10, 20);
+    font-size: 48px;
+    position: fixed;
+    right: 2vw;
+    bottom: 12vh;
   }
 }

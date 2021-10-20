@@ -18,7 +18,7 @@
   
   .tituloSecundario {
     color: rgb(39, 10, 20);
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Manrope", sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -36,7 +36,7 @@
 
   .tituloSecundario {
     color: rgb(39, 10, 20);
-    font-size: 35px;
+    font-size: 28px;
     font-family: "Manrope", sans-serif;
     text-transform: uppercase;
     height: 50px;
@@ -49,3 +49,32 @@
  
 }
 
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .tituloSecundario {
+    color: rgb(39, 10, 20);
+    font-size: 30px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+   
+  } 
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .tituloSecundario {
+    color: rgb(39, 10, 20);
+    font-size: 33px;
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+   
+  } 
+}
