@@ -7,16 +7,14 @@
   justify-items: center;
   align-items: center;
   margin-top: 40px;
-
-  .iframe{
+  .iframe {
     width: 48vw;
     height: 30vw;
   }
-  div{
+  div {
     display: flex;
     flex-direction: column;
   }
-
   .tituloParrafoHome {
     display: flex;
     color: rgb(39, 10, 20);
@@ -29,7 +27,6 @@
     align-items: center;
     text-align: center;
   }
-
   .parrafoHome {
     color: rgb(39, 10, 20);
     font-size: 15px;
@@ -38,7 +35,6 @@
     margin-right: 20px;
     text-align: justify;
   }
-
   .listaParrafoHome {
     padding-top: 20px;
     color: rgb(39, 10, 20);
@@ -50,56 +46,50 @@
     text-align: justify;
   }
 }
-
-@media only screen and (max-width: 425px){
-
-.contenedorPYVideoHome {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  justify-items: center;
-  align-items: center;
-  margin-top: 40px;
-
-  .iframe{
-    width: 90vw;
-    height: 30vh;
-    margin-bottom: 5vh;
-  }
-  .tituloParrafoHome {
+@media only screen and (max-width: 425px) {
+  .contenedorPYVideoHome {
     display: flex;
-    color: rgb(39, 10, 20);
-    font-size: 20px;
-    font-family: "Manrope", sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-    letter-spacing: 5px;
-    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-items: center;
     align-items: center;
-    text-align: center;
-  }
-
-  .parrafoHome {
-    color: rgb(39, 10, 20);
-    font-size: 15px;
-    font-family: "Poppins", sans-serif;
-    margin-left: 20px;
-    text-align: justify;
-  }
-
-  .listaParrafoHome {
-    padding-top: 20px;
-    color: rgb(39, 10, 20);
-    font-size: 15px;
-    font-family: "Poppins", sans-serif;
-    word-spacing: normal;
-    margin-left: 10px;
-    text-align: justify;
+    margin-top: 40px;
+    .iframe {
+      width: 90vw;
+      height: 30vh;
+      margin-bottom: 5vh;
+    }
+    .tituloParrafoHome {
+      display: flex;
+      color: rgb(39, 10, 20);
+      font-size: 20px;
+      font-family: "Manrope", sans-serif;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      letter-spacing: 5px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .parrafoHome {
+      color: rgb(39, 10, 20);
+      font-size: 15px;
+      font-family: "Poppins", sans-serif;
+      margin-left: 20px;
+      text-align: justify;
+    }
+    .listaParrafoHome {
+      padding-top: 20px;
+      color: rgb(39, 10, 20);
+      font-size: 15px;
+      font-family: "Poppins", sans-serif;
+      word-spacing: normal;
+      margin-left: 10px;
+      text-align: justify;
+    }
   }
 }
-}
-
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .contenedorPYVideoHome {
     display: flex;
@@ -110,16 +100,14 @@
     align-items: center;
     margin-top: 10vh;
     margin-bottom: 10vh;
-  
-    .iframe{
+    .iframe {
       height: 40vh;
       width: 80vw;
     }
-    div{
+    div {
       display: flex;
       flex-direction: column;
     }
-  
     .tituloParrafoHome {
       display: flex;
       color: rgb(39, 10, 20);
@@ -132,7 +120,6 @@
       align-items: center;
       text-align: center;
     }
-  
     .parrafoHome {
       color: rgb(39, 10, 20);
       font-size: 15px;
@@ -141,7 +128,6 @@
       margin-right: 20px;
       text-align: justify;
     }
-  
     .listaParrafoHome {
       padding-top: 20px;
       color: rgb(39, 10, 20);
@@ -155,7 +141,6 @@
     }
   }
 }
-
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   .contenedorPYVideoHome {
     display: grid;
@@ -167,16 +152,14 @@
     align-items: center;
     margin-top: 40px;
     margin-bottom: 10vh;
-  
-    .iframe{
+    .iframe {
       width: 48vw;
       height: 30vw;
     }
-    div{
+    div {
       display: flex;
       flex-direction: column;
     }
-  
     .tituloParrafoHome {
       display: flex;
       color: rgb(39, 10, 20);
@@ -189,7 +172,6 @@
       align-items: center;
       text-align: center;
     }
-  
     .parrafoHome {
       color: rgb(39, 10, 20);
       font-size: 15px;
@@ -198,7 +180,6 @@
       margin-right: 20px;
       text-align: justify;
     }
-  
     .listaParrafoHome {
       padding-top: 20px;
       color: rgb(39, 10, 20);
@@ -211,7 +192,6 @@
     }
   }
 }
-
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
   .contenedorPYVideoHome {
     display: grid;
@@ -223,16 +203,14 @@
     align-items: center;
     margin-top: 40px;
     margin-bottom: 10vh;
-  
-    .iframe{
+    .iframe {
       width: 48vw;
       height: 30vw;
     }
-    div{
+    div {
       display: flex;
       flex-direction: column;
     }
-  
     .tituloParrafoHome {
       display: flex;
       color: rgb(39, 10, 20);
@@ -245,7 +223,6 @@
       align-items: center;
       text-align: center;
     }
-  
     .parrafoHome {
       color: rgb(39, 10, 20);
       font-size: 15px;
@@ -254,7 +231,6 @@
       margin-right: 20px;
       text-align: justify;
     }
-  
     .listaParrafoHome {
       padding-top: 20px;
       color: rgb(39, 10, 20);

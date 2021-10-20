@@ -8,7 +8,6 @@
     height: auto;
   }
 }
-
 .ulNavbar {
   display: flex;
   justify-content: space-around;
@@ -17,7 +16,6 @@
     white-space: nowrap;
   }
 }
-
 @media only screen and (max-width: 425px) {
   .divLogo {
     display: flex;
@@ -29,7 +27,6 @@
       height: auto;
     }
   }
-
   .ulNavbar {
     display: flex;
     justify-content: start;
@@ -40,7 +37,6 @@
     }
   }
 }
-
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .divLogo {
     display: flex;
@@ -52,7 +48,6 @@
       height: auto;
     }
   }
-
   .ulNavbar {
     display: flex;
     padding-left: 0vw;
@@ -78,7 +73,6 @@
       height: auto;
     }
   }
-
   .ulNavbar {
     display: flex;
     padding-left: 0vw;
@@ -93,7 +87,6 @@
     }
   }
 }
-
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
   .divLogo {
     display: flex;
@@ -105,7 +98,6 @@
       height: auto;
     }
   }
-
   .ulNavbar {
     display: flex;
     padding-left: 0vw;

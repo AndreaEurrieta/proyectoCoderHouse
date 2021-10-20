@@ -8,21 +8,21 @@
   align-items: center;
   padding-top: 5vh;
   margin-bottom: 20vh;
-
   .divImagenAcercaDeNosotros {
     justify-items: center;
     align-items: center;
-
     .imagenPrincipalAcercaDeNosotros {
       margin-top: 25vh;
       width: 40vw;
       height: auto;
     }
+    .animacionFotos:hover {
+      transform: scale(1.1, 1.1);
+    }
   }
-
+}
   .divParrafoAcercaDeNosotros {
     width: 40vw;
-
     .parrafoAcercaDeNosotros {
       color: rgb(39, 10, 20);
       font-size: 15px;
@@ -31,15 +31,12 @@
       text-align: justify;
     }
   }
-}
-
 .bannerflex3 {
   width: 98vw;
   height: 50vh;
   display: flex;
   text-decoration: none;
   overflow: hidden;
-  
   .bannerInferior {
     width: 100vw;
     height: 50vh;
@@ -53,7 +50,6 @@
     display: flex;
     text-decoration: none;
     overflow: hidden;
-    
     @each $fotosa in acn1, acn2, acn3, acn4 {
       .bannerInferior#{$fotosa} {
         background-image: url("../imagenes/#{$fotosa}.png");
@@ -67,7 +63,6 @@
         -o-transition: all 0.9s ease; /* IE 9 */
         -ms-transition: all 0.9s ease; /* Opera */
         width: 100%;
-
         .bannerInferiorColor {
           background-color: rgba(88, 88, 88, 0.1);
           height: 100%;
@@ -75,7 +70,6 @@
           display: flex;
           justify-content: center;
           align-items: center;
-
           h4 {
             font-size: 1rem;
             color: #fff;
@@ -84,12 +78,10 @@
             justify-content: center;
           }
         }
-
         a {
           text-decoration: none;
         }
       }
-
       .bannerInferior#{$fotosa}:hover {
         -webkit-transform: scale(1.15);
         -moz-transform: scale(1.15);
@@ -100,7 +92,6 @@
     }
   }
 }
-
 @media only screen and (max-width: 425px) {
   .grillaAcercaDeNosotros {
     display: flex;
@@ -110,11 +101,9 @@
     justify-items: center;
     align-items: center;
     padding-bottom: 0px;
-
     .divImagenAcercaDeNosotros {
       justify-items: center;
       align-items: center;
-
       .imagenPrincipalAcercaDeNosotros {
         padding-top: 0px;
         margin-left: 0px;
@@ -125,7 +114,6 @@
     }
     .divParrafoAcercaDeNosotros {
       width: 90vw;
-
       .parrafoAcercaDeNosotros {
         padding-top: 5vh;
         color: rgb(39, 10, 20);
@@ -137,14 +125,12 @@
     }
   }
 }
-
 .bannerflex3 {
   width: 100vw;
   height: 20vh;
   display: flex;
   text-decoration: none;
   overflow: hidden;
-  
   .bannerInferior {
     width: 100vw;
     height: 20vh;
@@ -158,7 +144,6 @@
     display: flex;
     text-decoration: none;
     overflow: hidden;
-    
     @each $fotosa in acn1, acn2, acn3, acn4 {
       .bannerInferior#{$fotosa} {
         background-image: url("../imagenes/#{$fotosa}.png");
@@ -172,7 +157,6 @@
         -o-transition: all 0.9s ease; /* IE 9 */
         -ms-transition: all 0.9s ease; /* Opera */
         width: 100%;
-
         .bannerInferiorColor {
           background-color: rgba(88, 88, 88, 0.1);
           height: 100%;
@@ -180,7 +164,6 @@
           display: flex;
           justify-content: center;
           align-items: center;
-
           h4 {
             font-size: 1rem;
             color: #fff;
@@ -189,12 +172,10 @@
             justify-content: center;
           }
         }
-
         a {
           text-decoration: none;
         }
       }
-
       .bannerInferior#{$fotosa}:hover {
         -webkit-transform: scale(1.15);
         -moz-transform: scale(1.15);
@@ -205,7 +186,6 @@
     }
   }
 }
-
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .grillaAcercaDeNosotros {
     display: flex;
@@ -215,11 +195,9 @@
     justify-items: center;
     align-items: center;
     padding-bottom: 0px;
-
     .divImagenAcercaDeNosotros {
       justify-items: center;
       align-items: center;
-
       .imagenPrincipalAcercaDeNosotros {
         padding-top: 0px;
         margin-left: 0px;
@@ -230,7 +208,6 @@
     }
     .divParrafoAcercaDeNosotros {
       width: 90vw;
-
       .parrafoAcercaDeNosotros {
         padding-top: 5vh;
         color: rgb(39, 10, 20);
@@ -242,14 +219,12 @@
     }
   }
 }
-
 .bannerflex3 {
   width: 100vw;
   height: 20vh;
   display: flex;
   text-decoration: none;
   overflow: hidden;
-  
   .bannerInferior {
     width: 100vw;
     height: 20vh;
@@ -263,7 +238,6 @@
     display: flex;
     text-decoration: none;
     overflow: hidden;
-    
     @each $fotosa in acn1, acn2, acn3, acn4 {
       .bannerInferior#{$fotosa} {
         background-image: url("../imagenes/#{$fotosa}.png");
@@ -277,7 +251,6 @@
         -o-transition: all 0.9s ease; /* IE 9 */
         -ms-transition: all 0.9s ease; /* Opera */
         width: 100%;
-
         .bannerInferiorColor {
           background-color: rgba(88, 88, 88, 0.1);
           height: 100%;
@@ -285,7 +258,6 @@
           display: flex;
           justify-content: center;
           align-items: center;
-
           h4 {
             font-size: 1rem;
             color: #fff;
@@ -294,12 +266,10 @@
             justify-content: center;
           }
         }
-
         a {
           text-decoration: none;
         }
       }
-
       .bannerInferior#{$fotosa}:hover {
         -webkit-transform: scale(1.15);
         -moz-transform: scale(1.15);
@@ -321,11 +291,9 @@
     align-items: center;
     padding-bottom: 5vh;
     padding-top: 15vh;
-
     .divImagenAcercaDeNosotros {
       justify-items: center;
       align-items: center;
-
       .imagenPrincipalAcercaDeNosotros {
         margin-left: 0px;
         width: 42vw;
@@ -334,7 +302,6 @@
     }
     .divParrafoAcercaDeNosotros {
       width: 50vw;
-
       .parrafoAcercaDeNosotros {
         padding-top: 10vh;
         color: rgb(39, 10, 20);
@@ -346,14 +313,12 @@
     }
   }
 }
-
 .bannerflex3 {
   width: 100vw;
   height: 20vh;
   display: flex;
   text-decoration: none;
   overflow: hidden;
-  
   .bannerInferior {
     width: 100vw;
     height: 20vh;
@@ -367,7 +332,6 @@
     display: flex;
     text-decoration: none;
     overflow: hidden;
-    
     @each $fotosa in acn1, acn2, acn3, acn4 {
       .bannerInferior#{$fotosa} {
         background-image: url("../imagenes/#{$fotosa}.png");
@@ -381,7 +345,6 @@
         -o-transition: all 0.9s ease; /* IE 9 */
         -ms-transition: all 0.9s ease; /* Opera */
         width: 100%;
-
         .bannerInferiorColor {
           background-color: rgba(88, 88, 88, 0.1);
           height: 100%;
@@ -389,7 +352,6 @@
           display: flex;
           justify-content: center;
           align-items: center;
-
           h4 {
             font-size: 1rem;
             color: #fff;
@@ -398,12 +360,10 @@
             justify-content: center;
           }
         }
-
         a {
           text-decoration: none;
         }
       }
-
       .bannerInferior#{$fotosa}:hover {
         -webkit-transform: scale(1.15);
         -moz-transform: scale(1.15);
@@ -414,7 +374,6 @@
     }
   }
 }
-
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
   .grillaAcercaDeNosotros {
     display: grid;
@@ -426,21 +385,17 @@
     align-items: center;
     padding-top: 15vh;
     margin-bottom: 15vh;
-  
     .divImagenAcercaDeNosotros {
       justify-items: center;
       align-items: center;
-  
       .imagenPrincipalAcercaDeNosotros {
         margin-top: 25vh;
         width: 43vw;
         height: auto;
       }
     }
-  
     .divParrafoAcercaDeNosotros {
       width: 40vw;
-  
       .parrafoAcercaDeNosotros {
         color: rgb(39, 10, 20);
         font-size: 15px;
@@ -450,14 +405,12 @@
       }
     }
   }
-  
   .bannerflex3 {
     width: 98vw;
     height: 50vh;
     display: flex;
     text-decoration: none;
     overflow: hidden;
-    
     .bannerInferior {
       width: 100vw;
       height: 50vh;
@@ -471,7 +424,6 @@
       display: flex;
       text-decoration: none;
       overflow: hidden;
-      
       @each $fotosa in acn1, acn2, acn3, acn4 {
         .bannerInferior#{$fotosa} {
           background-image: url("../imagenes/#{$fotosa}.png");
@@ -485,7 +437,6 @@
           -o-transition: all 0.9s ease; /* IE 9 */
           -ms-transition: all 0.9s ease; /* Opera */
           width: 100%;
-  
           .bannerInferiorColor {
             background-color: rgba(88, 88, 88, 0.1);
             height: 100%;
@@ -493,7 +444,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-  
             h4 {
               font-size: 1rem;
               color: #fff;
@@ -502,12 +452,10 @@
               justify-content: center;
             }
           }
-  
           a {
             text-decoration: none;
           }
         }
-  
         .bannerInferior#{$fotosa}:hover {
           -webkit-transform: scale(1.15);
           -moz-transform: scale(1.15);
@@ -518,4 +466,4 @@
       }
     }
   }
-}  
+}

@@ -1386,11 +1386,16 @@ footer .final .redesSociales .img1 {
   height: auto;
 }
 
-.grillaAcercaDeNosotros .divParrafoAcercaDeNosotros {
+.grillaAcercaDeNosotros .divImagenAcercaDeNosotros .animacionFotos:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+.divParrafoAcercaDeNosotros {
   width: 40vw;
 }
 
-.grillaAcercaDeNosotros .divParrafoAcercaDeNosotros .parrafoAcercaDeNosotros {
+.divParrafoAcercaDeNosotros .parrafoAcercaDeNosotros {
   color: #270a14;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
@@ -4706,16 +4711,71 @@ footer .final .redesSociales .img1 {
   .targetasContenedor {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
     -ms-grid-rows: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+    -webkit-column-gap: 2vw;
+            column-gap: 2vw;
     width: 100%;
     height: auto;
-    padding: 10vh 0px;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
   }
   .targetasContenedor .targetasContenedor__targeta .columnaIndex {
-    width: 40vw;
+    width: 45vw;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .targetasContenedor {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    width: 100%;
+    height: auto;
+    padding: 10vh 0vw;
+  }
+  .targetasContenedor .targetasContenedor__targeta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .targetasContenedor .targetasContenedor__targeta .columnaIndex {
+    width: 20vw;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .targetasContenedor {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    width: 100%;
+    height: auto;
+    padding: 10vh 0vw;
+  }
+  .targetasContenedor .targetasContenedor__targeta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .targetasContenedor .targetasContenedor__targeta .columnaIndex {
+    width: 23vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
