@@ -1991,7 +1991,7 @@ footer .final .redesSociales .img1 {
 
 .bannerflex3 {
   width: 100vw;
-  height: 20vh;
+  height: 35vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2001,7 +2001,7 @@ footer .final .redesSociales .img1 {
 
 .bannerflex3 .bannerInferior {
   width: 100vw;
-  height: 20vh;
+  height: 35vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2010,7 +2010,7 @@ footer .final .redesSociales .img1 {
 }
 
 .bannerflex3 .bannerInferiorContenedor {
-  height: 20vh;
+  height: 35vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2282,7 +2282,7 @@ footer .final .redesSociales .img1 {
 
 .bannerflex3 {
   width: 100vw;
-  height: 20vh;
+  height: 45vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2292,7 +2292,7 @@ footer .final .redesSociales .img1 {
 
 .bannerflex3 .bannerInferior {
   width: 100vw;
-  height: 20vh;
+  height: 45vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2301,7 +2301,7 @@ footer .final .redesSociales .img1 {
 }
 
 .bannerflex3 .bannerInferiorContenedor {
-  height: 20vh;
+  height: 45vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2570,7 +2570,7 @@ footer .final .redesSociales .img1 {
   }
   .bannerflex3 {
     width: 98vw;
-    height: 50vh;
+    height: 48vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2579,7 +2579,7 @@ footer .final .redesSociales .img1 {
   }
   .bannerflex3 .bannerInferior {
     width: 100vw;
-    height: 50vh;
+    height: 48vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2587,7 +2587,7 @@ footer .final .redesSociales .img1 {
     overflow: hidden;
   }
   .bannerflex3 .bannerInferiorContenedor {
-    height: 50vh;
+    height: 48vh;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3286,7 +3286,7 @@ footer .final .redesSociales .img1 {
   color: #270a14;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
-  text-transform: lowercase;
+  text-transform: capitalize;
   margin-left: 40px;
   margin-right: 20px;
   text-align: justify;
@@ -3587,7 +3587,7 @@ footer .final .redesSociales .img1 {
     color: #270a14;
     font-size: 15px;
     font-family: "Poppins", sans-serif;
-    text-transform: lowercase;
+    text-transform: capitalize;
     margin-left: 40px;
     margin-right: 20px;
     text-align: justify;
@@ -3884,7 +3884,7 @@ footer .final .redesSociales .img1 {
     color: #270a14;
     font-size: 15px;
     font-family: "Poppins", sans-serif;
-    text-transform: lowercase;
+    text-transform: capitalize;
     margin-left: 5px;
     margin-right: 5px;
     text-align: justify;
@@ -4179,7 +4179,7 @@ footer .final .redesSociales .img1 {
     color: #270a14;
     font-size: 15px;
     font-family: "Poppins", sans-serif;
-    text-transform: lowercase;
+    text-transform: capitalize;
     margin-left: 40px;
     margin-right: 20px;
     text-align: justify;
@@ -4474,7 +4474,7 @@ footer .final .redesSociales .img1 {
     color: #270a14;
     font-size: 15px;
     font-family: "Poppins", sans-serif;
-    text-transform: lowercase;
+    text-transform: capitalize;
     margin-left: 40px;
     margin-right: 20px;
     text-align: justify;
