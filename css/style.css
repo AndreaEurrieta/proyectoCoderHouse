@@ -158,7 +158,7 @@ footer .final {
   display: -ms-grid;
   display: grid;
   width: 100%;
-  height: 10vh;
+  height: 100%;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
   -ms-grid-rows: 100%;
@@ -276,7 +276,7 @@ footer .final .redesSociales .img1 {
     display: -ms-grid;
     display: grid;
     width: 100%;
-    height: 10vh;
+    height: 100%;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
     -ms-grid-rows: 100%;
@@ -392,7 +392,7 @@ footer .final .redesSociales .img1 {
     display: -ms-grid;
     display: grid;
     width: 100%;
-    height: 10vh;
+    height: 100%;
     -ms-grid-columns: 60% 40%;
         grid-template-columns: 60% 40%;
     -ms-grid-rows: 100%;
@@ -504,7 +504,7 @@ footer .final .redesSociales .img1 {
     display: -ms-grid;
     display: grid;
     width: 100%;
-    height: 10vh;
+    height: 100%;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
     -ms-grid-rows: 100%;
@@ -615,7 +615,7 @@ footer .final .redesSociales .img1 {
     display: -ms-grid;
     display: grid;
     width: 100%;
-    height: 10vh;
+    height: 100%;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
     -ms-grid-rows: 100%;
